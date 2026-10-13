@@ -23,4 +23,6 @@ WHERE COUNTRYCODE = 'USA'
 
 ## Reflection
 
-<!-- Note what you learned or what you would revisit. -->
+**Learned:** `SELECT` picks which columns to show: `*` for all, or a column name for just that one. The filter logic in `WHERE` is independent of that choice.
+
+**Revisit:** selecting several specific columns, separated by commas (Lesson 3.1).

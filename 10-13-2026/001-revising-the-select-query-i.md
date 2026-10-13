@@ -6,7 +6,11 @@
 
 ## Intuition / Approach
 
-Revising the Select Query I
+My approach was to translate the sentence into three questions, because every basic SQL query answers the same three:
+
+1. Which table? “CITY table” → FROM CITY
+2. Which columns? “All columns” → SELECT *
+3. Which rows? “American” and “population larger than 100000” → WHERE, one condition per phrase, joined with AND because both must hold
 
 ## My Solution
 
@@ -19,4 +23,6 @@ WHERE COUNTRYCODE = 'USA'
 
 ## Reflection
 
-<!-- Note what you learned or what you would revisit. -->
+**Learned:** Every basic query answers three questions: which table (`FROM`), which columns (`SELECT`), which rows (`WHERE`). Text needs quotes (`'USA'`), numbers don't and take no commas. `AND` needs both conditions true.
+
+**Revisit:** `OR`, `IN`, `BETWEEN`, and `NULL` behavior in `WHERE`.
