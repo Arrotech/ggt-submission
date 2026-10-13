@@ -21,4 +21,6 @@ FROM CITY;
 
 ## Reflection
 
-<!-- Note what you learned or what you would revisit. -->
+**Learned:** No `WHERE` means no row filter. `SELECT *` with no `WHERE` returns the whole table.
+
+**Revisit:** why `SELECT *` is risky in real projects (Lesson 3.1).
